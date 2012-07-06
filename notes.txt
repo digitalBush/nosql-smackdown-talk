@@ -1,0 +1,29 @@
+NoSQL Smackdown notes:
+
+The goal is to try to help you wade through the myriad number of options. The number one thing I overhear people say is "I need to learn me some NoSQL" :(
+
+NoSQL isn't a thing. It's just a category of things which it is not. 
+
+Is NoSQL a fad?
+How does it change programming style?
+What is the most painful part?
+
+CAP Theorem
+
+
+Talk about the primary differences here
+Categories:
+ * Key/Value
+ * Document
+ * Column Family
+ * Graph
+
+Specifics:
+ * Dynamo(Riak)
+ * CouchDB
+ * MongoDB
+ * RavenDB
+ * Neo4j
+ * Cassandra
+
+
