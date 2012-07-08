@@ -8,8 +8,19 @@ Is NoSQL a fad?
 How does it change programming style?
 What is the most painful part?
 
+
+
 CAP Theorem
 
+How does the distributed system respond to node failures.
+
+Failure Types:
+ * Node dies.
+   * Gone forver. Dead drive for instance.
+   * Temporary. Reboot for instance.
+ * Network Partition.
+   * When that node is unreachable, then it's just as if the node went away temporarily.
+   * What happens if the node is reachable from the outside, but can't talk to its peers?
 
 Talk about the primary differences here
 Categories:
