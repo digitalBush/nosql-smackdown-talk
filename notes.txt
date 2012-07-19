@@ -22,10 +22,13 @@ Failure Types:
    * When that node is unreachable, then it's just as if the node went away temporarily.
    * What happens if the node is reachable from the outside, but can't talk to its peers?
 
+Scenario:
+ 7 databases standed island with news. Maybe something like who is the latest president?
+
 How can we distribute our data:
  * Replication
  * Sharding
- * 
+ * Quorum
 
 Talk about the primary differences here
 Categories:
