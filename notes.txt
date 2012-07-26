@@ -8,7 +8,7 @@ Is NoSQL a fad?
 How does it change programming style?
 What is the most painful part?
 
-
+"My screwdriver is x times faster than your hammer at putting screws into things"  What about nails? - Eric Redmond
 
 CAP Theorem
 
