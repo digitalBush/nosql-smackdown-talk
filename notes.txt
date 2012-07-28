@@ -8,9 +8,15 @@ Is NoSQL a fad?
 How does it change programming style?
 What is the most painful part?
 
+"My screwdriver is x times faster than your hammer at putting screws into things"  What about nails? - Eric Redmond
 
+ACID? Bank example, except banks don't work in ACID.
+
+Need examples of harware costs for scaling up vs scaling out.
 
 CAP Theorem
+
+Eventually consistent
 
 How does the distributed system respond to node failures.
 
@@ -25,10 +31,18 @@ Failure Types:
 Scenario:
  7 databases standed island with news. Maybe something like who is the latest president?
 
+We need to talk about latency.
+
 How can we distribute our data:
  * Replication
  * Sharding
  * Quorum
+
+Scaling might be important, but modeling is important too. Talk about examples of the following:
+Riak and file storage
+Neo4j vs inner joined query
+Document DB with custom attributes vs sql schema
+Columnar for versioning vs sql schema
 
 Talk about the primary differences here
 Categories:
