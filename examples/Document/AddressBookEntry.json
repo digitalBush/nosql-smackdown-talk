@@ -1,0 +1,16 @@
+{
+  Name:"Josh Bush",
+  Birthday:"1982-12-31",
+  Phones:[
+    {Description:"Work",Phone:"867-5309"},
+    {Description:"Home",Phone:"555-5555"}
+  ],
+  Emails:[
+    {Description:"Work",Address:"josh.bush@fireflylogic.com"}
+  ],
+  Other:[
+    {Key:"Number Of Kids",Type:"Number",Value:1},
+    {Key:"Kid Names",Type:"List",Value:["Hudson"]},
+    {Key:"Favorite Drink",Type: "String",Value: "Mt. Dew"}
+  ]
+}
