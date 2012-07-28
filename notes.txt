@@ -16,6 +16,8 @@ Need examples of harware costs for scaling up vs scaling out.
 
 CAP Theorem
 
+Eventually consistent
+
 How does the distributed system respond to node failures.
 
 Failure Types:
@@ -28,6 +30,8 @@ Failure Types:
 
 Scenario:
  7 databases standed island with news. Maybe something like who is the latest president?
+
+We need to talk about latency.
 
 How can we distribute our data:
  * Replication
