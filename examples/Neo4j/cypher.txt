@@ -1,0 +1,55 @@
+START n = node(*)
+MATCH n-[r?]-()
+DELETE n, r
+
+
+create (digitalbush {name:'Josh Bush'}),
+(ifandelse {name:'Jim Cowart'}),
+(A_Robson {name:'Alex Robson'}),
+(bryan_hunter {name:'Bryan Hunter'}),
+(elijahmanor {name:'Elijah Manor'}),
+(danmohl {name:'Dan Mohl'}),
+(derekgreer {name:'Derek Greer'}),
+(reverentgeek {name:'David Neal'}),
+(calvinb {name:'Calvin Bottoms'}),
+(jcreamer898 {name:'Jonathan Creamer'}),
+digitalbush-[:FriendsWith]->elijahmanor,
+digitalbush-[:FriendsWith]->A_Robson,
+digitalbush-[:FriendsWith]->bryan_hunter,
+A_Robson-[:FriendsWith]->danmohl,
+A_Robson-[:FriendsWith]->calvinb,
+elijahmanor-[:FriendsWith]->ifandelse,
+elijahmanor-[:FriendsWith]->jcreamer898,
+bryan_hunter-[:FriendsWith]->reverentgeek,
+bryan_hunter-[:FriendsWith]->derekgreer,
+(NoSQL{name:'NoSQL'}),
+(Erlang{name:'Erlang'}),
+(Csharp{name:'C#'}),
+(Ruby{name:'Ruby'}),
+(Fsharp{name:'F#'}),
+(Javascript{name:'Javascript'}),
+digitalbush-[:Uses]->NoSQL,
+digitalbush-[:Uses]->Erlang,
+digitalbush-[:Uses]->Fsharp,
+danmohl-[:Uses]->Fsharp,
+calvinb-[:Uses]->Ruby,
+ifandelse-[:Uses]->Erlang,
+jcreamer898-[:Uses]->Javascript,
+reverentgeek-[:Uses]->NoSQL,
+derekgreer-[:Uses]->Csharp
+
+
+start n = node(23) 
+MATCH (n)-[:FriendsWith]->(f)-[:FriendsWith]->(fof)-[:Uses]->(t), (n)-[:Uses]->(t)
+return fof,t
+
+start n = node(1)
+MATCH (n)-[:FriendsWith*2]->(fof)-[:Uses]->(t), 
+	  (n)-[:Uses]->(t) 
+return fof,t
+
+http://console.neo4j.org/?id=tvxxwv
+
+
+
+
