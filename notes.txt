@@ -60,3 +60,8 @@ Specifics:
  * Cassandra
 
 
+Questions to answer:
+When should it be used? 
+How do I query without SQL?
+When is a relational database better than a document database?
+Can these new fangled things participate in a distributed transaction?
